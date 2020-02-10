@@ -1,0 +1,8 @@
+{
+  "HELLO_WORD": "Hello World",
+  "LABLE_USERS": "Users",
+  "LABEL_LOADING_USERS": "Loading Users...",
+  "LABEL_LOGOUT": "Logout",
+  "USERNAME_INVALID": "Please enter a valid username",
+  "PASSWORD_INVALID": "Please enter a valid password"
+}
