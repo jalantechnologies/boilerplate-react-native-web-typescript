@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-react-native-web-typescript",
+  "displayName": "Boilerplate-React-Native-Web-Typescript",
+  "scripts": {},
+  "env": {
+    "NODE_ENV": {
+      "description": "Node environment. node_modules packages can alter their behaviour when in production. Heroku will prune devPackages when in production.",
+      "value": "production"
+    },
+    "API_ENDPOINT": {
+      "description": "Realm for loading api endpoint from config entries.",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
